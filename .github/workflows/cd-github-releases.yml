@@ -20,7 +20,7 @@ jobs:
     outputs:
       hasMissingReleases: ${{ steps.check.outputs.hasMissingReleases }}
     steps:
-    - uses: actions/checkout@v4
+    - uses: actions/checkout@v7
       with:
         fetch-depth: 0  # need all tags for `git rev-parse refs/tags/<tag>`.
 
@@ -38,7 +38,7 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    - uses: actions/checkout@v4
+    - uses: actions/checkout@v7
       with:
         fetch-depth: 0  # need all tags so `git rev-parse` can detect existing releases.
 
