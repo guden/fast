@@ -24,7 +24,7 @@ jobs:
       with:
         fetch-depth: 0  # need all tags for `git rev-parse refs/tags/<tag>`.
 
-    - uses: actions/setup-node@v6
+    - uses: actions/setup-node@v7
       with:
         node-version: 22
 
@@ -42,7 +42,7 @@ jobs:
       with:
         fetch-depth: 0  # need all tags so `git rev-parse` can detect existing releases.
 
-    - uses: actions/setup-node@v6
+    - uses: actions/setup-node@v7
       with:
         node-version: 22
 
