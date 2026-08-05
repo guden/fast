@@ -53,7 +53,7 @@
   },
   "devDependencies": {
     "@ast-grep/cli": "0.37.0",
-    "@biomejs/biome": "2.4.8",
+    "@biomejs/biome": "2.5.6",
     "@microsoft/api-extractor": "7.58.1",
     "@microsoft/webui": "0.0.12",
     "@playwright/test": "1.56.1",
